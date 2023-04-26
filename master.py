@@ -122,11 +122,11 @@ for word in list(unique_word_dict.keys()):
 
 # Saving the embedding vector to a txt file
 try:
-    os.mkdir(f'{os.getcwd()}\\output')        
+    os.mkdir(f'./output')        
 except Exception as e:
     print(f'Cannot create output folder: {e}')
 
-with open(f'{os.getcwd()}\\output\\embedding.txt', 'w') as f:
+with open(f'./output/embedding.txt', 'w') as f:
     for key, value in embedding_dict.items():
         try:
             f.write(f'{key}: {value}\n')   

@@ -24,4 +24,5 @@ Installing all the packages from the **requirements.txt** file to the virtual en
 pip install -r requirements.txt
 ```
 
-If you are using Microsoft Visual Studio code there may be some additional pop ups indiciating that some packages should be installed (linter or ikernel). 
+If you are using Microsoft Visual Studio code there may be some additional pop ups indiciating that some packages should be installed (linter or ikernel).
+
